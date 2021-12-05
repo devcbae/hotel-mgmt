@@ -6,15 +6,29 @@
       </a>
     </div>
     <div class="header-nav">
-      <a [routerLink]="['./dashboard']" class="active nav-link nav-text">Dashboard</a>
-      <a href="javascript://" class="nav-link nav-text">Booking</a>
-      <a href="javascript://" class="nav-link nav-text">Rooms & Anemity</a>
-      <a href="javascript://" class="nav-link nav-text">About Us</a>
+      <a [routerLink]="['./dashboard']" class="nav-link nav-text">Dashboard</a>
+      <a [routerLink]="['./booking']" class="nav-link nav-text">Booking</a>
+      <a [routerLink]="['./anemity']" class="nav-link nav-text">Rooms & Anemity</a>
+      <a [routerLink]="['./aboutus']" class="nav-link nav-text">About Us</a>
+      <form class="search">
+        <label for="search_input">
+          <input id="search_input" type="text" placeholder="Search for keywords..." />
+        </label>
+      </form>
     </div>
-    <div class="header-actions">
-      <a href="javascript://" class="nav-link nav-icon" aria-label="settings">
-        <cds-icon shape="cog"></cds-icon>
-      </a>
-    </div>
+
+    <div class="header-actions header-actions--overflow">
+
+          <div class="header-actions">
+            <a class="nav-link nav-icon-text">
+              <span class="nav-text">username</span>
+            </a>
+            <a [routerLink]="['./logout']" class="nav-link nav-icon-text">
+              <span class="nav-text">Log out</span>
+            </a>
+          </div>
+
+      </div>
+
   </header>
 <router-outlet></router-outlet>
