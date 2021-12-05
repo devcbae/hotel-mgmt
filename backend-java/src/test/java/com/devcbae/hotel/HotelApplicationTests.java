@@ -1,10 +1,10 @@
-package com.devcbae.hotelmgmt;
+package com.devcbae.hotel;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class HotelmgmtApplicationTests {
+class HotelApplicationTests {
 
 	@Test
 	void contextLoads() {
