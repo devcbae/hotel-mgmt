@@ -38,9 +38,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="773864a0-6859-4040-9e6a-3ae7673ec4bd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/backend-java/src/main/java/com/devcbae/hotel/jdbc/persistence/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-java/src/main/resources/static/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend-java/src/main/java/com/devcbae/hotel/HotelApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend-java/src/main/java/com/devcbae/hotel/HotelApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-java/src/main/java/com/devcbae/hotel/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend-java/src/main/java/com/devcbae/hotel/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-java/src/main/java/com/devcbae/hotel/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-java/src/main/java/com/devcbae/hotel/ItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend-java/src/main/java/com/devcbae/hotel/jdbc/repository/ItemRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
