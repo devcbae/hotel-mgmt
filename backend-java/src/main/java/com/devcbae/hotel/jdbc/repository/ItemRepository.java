@@ -1,6 +1,6 @@
-package com.devcbae.hotel;
+package com.devcbae.hotel.jdbc.repository;
 
-import com.devcbae.hotel.Item;
+import com.devcbae.hotel.jdbc.persistence.Item;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
